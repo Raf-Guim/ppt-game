@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.container-titulo {
+    margin-top: 25px;
+}
+
+.container-titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.container-jogo {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.jogador, .resultado, .computador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure {
+    max-width: 150px;
+}
+
+img {
+    width: 100%;
+    opacity: 0.4;
+    margin-top: 25px;
+}
+
+.jogador .container-opcoes img {
+    cursor: pointer;
+}
+
+#resetar {
+    margin-bottom: 50px
+}
+
+p {
+    font-size: 3em;
+    font-weight: bold;
+}
