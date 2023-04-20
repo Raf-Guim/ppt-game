@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PPT GAME</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rock, Paper, Scissors Game!</title>
+        <link rel="stylesheet" href="src/css/style.css">
+    </head>
 
-<body>
-    <div class="container-titulo">
-        <h1>Pedra, Papel ou Tesoura</h1>
-    </div>
+    <body>
 
-    <div class="container-jogo">
-        <div class="jogador">
-            <h3>JOGADOR</h3>
-            <div class="container-opcoes">
-                <figure><img src="rock.png" alt="opcao pedra" opt="pedra"></figure>
-                <figure><img src="paper.png" alt="opcao papel" opt="papel"></figure>
-                <figure><img src="scisor.png" alt="opcao tesoura" opt="tesoura"></figure>
-            </div>
-        </div>
+        <main>
+            <section id="header">
+                <h1>Rock, Paper, Scissors Game!</h1>
+            </section>
+            <section id="game">
+                <article id="player">
+                    <h2>Jogador!</h2>
+                    <figure>
+                        <img src="src/img/rock.png" alt="rock" opt="rock">
+                    </figure>
+                    <figure>
+                        <img src="src/img/paper.png" alt="paper" opt="paper">
+                    </figure>
+                    <figure>
+                        <img src="src/img/scissor.png" alt="scissor" opt="scissor">
+                    </figure>
+                </article>
+                <article id="pc">
+                    <h2>PC!</h2>
+                    <figure>
+                        <img src="src/img/rock.png" alt="rock" opt="rock">
+                    </figure>
+                    <figure>
+                        <img src="src/img/paper.png" alt="paper" opt="paper">
+                    </figure>
+                    <figure>
+                        <img src="src/img/scissor.png" alt="scissor" opt="scissor">
+                    </figure>
+                </article>
+            </section>
+            <section id="result">
+                <h1></h1>
+            </section>
+        </main>
+        <footer>©Rafael Guimarães</footer>
 
-        <div class="resultado">
-        </div>
-
-        <div class="computador">
-            <h3>COMPUTADOR</h3>
-            <div class="container-opcoes">
-                <figure><img src="rock.png" alt="opcao pedra" opt="pedra"></figure>
-                <figure><img src="paper.png" alt="opcao papel" opt="papel"></figure>
-                <figure><img src="scisor.png" alt="opcao tesoura" opt="tesoura"></figure>
-            </div>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
-</body>
+        <script src="src/js/script.js"></script>
+    </body>
 
 </html>
